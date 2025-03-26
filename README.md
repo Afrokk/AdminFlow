@@ -34,25 +34,25 @@ The system is configured to run in demo mode without requiring actual API keys:
 ```bash
 git clone https://github.com/your-username/adminflow.git
 cd adminflow
-npm install
+bun install
 ```
 
 2. **Run database migrations (if using a real PostgreSQL database)**
 
 ```bash
-npx prisma migrate dev
+bunx prisma migrate dev
 ```
 
 If you just want to run the demo without a database, you can generate the Prisma client:
 
 ```bash
-npx prisma generate
+bunx prisma generate
 ```
 
 3. **Start the development server**
 
 ```bash
-npm run dev
+bun run dev
 ```
 
 4. **Access the application**
