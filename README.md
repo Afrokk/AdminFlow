@@ -1,4 +1,4 @@
-# AdminFlow: User/Team Management System
+# AdminFlow: User/Team Management System (Prototype)
 
 A comprehensive system for managing users and teams with approval workflows, GitHub and Slack integration, and annual information updates.
 
